@@ -12,3 +12,9 @@
 /Source/Server/NotePilot.API/NotePilot.Entity/obj
 /Source/Server/NotePilot.API/NotePilot.Repository/obj
 /Source/Server/NotePilot.API/NotePilot.Service/obj
+/Source/Server/NotePilot.API/.vs
+/Source/Server/NotePilot.API/NotePilot.API/bin/Debug/net8.0
+/Source/Server/NotePilot.API/NotePilot.Db/bin/Debug/net8.0
+/Source/Server/NotePilot.API/NotePilot.Entity/bin/Debug/net8.0
+/Source/Server/NotePilot.API/NotePilot.Repository/bin/Debug/net8.0
+/Source/Server/NotePilot.API/NotePilot.Service/bin/Debug/net8.0
