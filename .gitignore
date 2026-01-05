@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/Client/NotePilotUI/.vscode
+/Source/Server/NotePilot.API/.vs/NotePilot.API/CopilotIndices/17.14.1231.31060
+/Source/Server/NotePilot.API/.vs/NotePilot.API/FileContentIndex
+/Source/Server/NotePilot.API/.vs/NotePilot.API/v17
+/Source/Server/NotePilot.API/NotePilot.API/obj
+/Source/Server/NotePilot.API/NotePilot.API.Tests/obj
+/Source/Server/NotePilot.API/NotePilot.Db/obj
+/Source/Server/NotePilot.API/NotePilot.Entity/obj
+/Source/Server/NotePilot.API/NotePilot.Repository/obj
+/Source/Server/NotePilot.API/NotePilot.Service/obj
