@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotePilot.Entity\NotePilot.Entity.csproj" />
+    <ProjectReference Include="..\NotePilot.Repository\NotePilot.Repository.csproj" />
+    <ProjectReference Include="..\NotePilot.Service\NotePilot.Service.csproj" />
+  </ItemGroup>
+
+</Project>
