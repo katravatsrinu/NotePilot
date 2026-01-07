@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePilot.API", "NotePilot.API\NotePilot.API.csproj", "{24B9AC4D-4A7F-4CED-A6A8-3BC57C43863E}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePilot.Repository", "Not
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePilot.Service", "NotePilot.Service\NotePilot.Service.csproj", "{6A023E98-AA4B-45E7-A681-0436462AE092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePilot.Db", "NotePilot.Db\NotePilot.Db.csproj", "{99014F16-C343-4625-8565-9020AE0C2475}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NotePilot.Db", "NotePilot.Db\NotePilot.Db.sqlproj", "{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,12 @@ Global
 		{6A023E98-AA4B-45E7-A681-0436462AE092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A023E98-AA4B-45E7-A681-0436462AE092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A023E98-AA4B-45E7-A681-0436462AE092}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99014F16-C343-4625-8565-9020AE0C2475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99014F16-C343-4625-8565-9020AE0C2475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99014F16-C343-4625-8565-9020AE0C2475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99014F16-C343-4625-8565-9020AE0C2475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6DC6D9-2B69-4C4A-8063-E18C00CA1FF5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
