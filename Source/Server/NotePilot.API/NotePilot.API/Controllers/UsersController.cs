@@ -17,7 +17,7 @@ namespace NotePilot.Api.Controllers
             _logger = logger;
         }
 
-        [HttpPost("register")]
+        [HttpPost("auth/register")]
         public async Task<IActionResult> Register([FromBody] UserRegisterRequestModel request)
         {
             if (request == null)
@@ -33,7 +33,7 @@ namespace NotePilot.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred during user registration for {Email}", request.Email);
+                _logger.LogError(ex.Message, "An error occurred during user registration for {Email}", request.Email);
 
                 return BadRequest(new { message = ex.Message });
             }
