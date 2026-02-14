@@ -18,3 +18,5 @@
 /Source/Server/NotePilot.API/NotePilot.Entity/bin/Debug/net8.0
 /Source/Server/NotePilot.API/NotePilot.Repository/bin/Debug/net8.0
 /Source/Server/NotePilot.API/NotePilot.Service/bin/Debug/net8.0
+/Source/Server/NotePilot.API/NotePilot.Db/NotePilot.Db.dbmdl
+/Source/Server/NotePilot.API/NotePilot.Db/NotePilot.Db.jfm
